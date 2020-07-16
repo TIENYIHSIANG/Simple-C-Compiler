@@ -1,5 +1,15 @@
 # Simple-C-Compiler
 
+## 如何使用 with WIN10
+1.開啟cmd，並將路徑設為專案所在位址<br>
+2.輸入"C 所寫C語言檔案名稱"<br>
+3.產生.asm及.bat檔<br>
+4.下載NASM，將cmd路徑設為安裝所在的位址<br>
+5.輸入"nasmw 檔案名稱.asm -o 檔案名稱.com"<br>
+6.產生.com檔<br>
+7.開啟DOSBOX，將路徑設為.com檔所在位址<br>
+8.輸入"檔案名稱.com"，即能執行程式<br>
+
 ## 一、支援語法規則
 1. Program ::= [ProgramHead] MainFunction <br>
 2. ProgramHead ::= #inculde String <br>
