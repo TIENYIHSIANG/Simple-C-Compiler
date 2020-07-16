@@ -76,7 +76,7 @@ _go2:<br>
 	PUSH		<br>AX
 	POP		AX<br>
 	MOV		[b], AX<br>
-_go3:
+_go3:<br>
 	PUSH		WORD [a]<br>
 	PUSH		10<br>
 	POP		BX<br>
